@@ -92,13 +92,13 @@ a {
     gap: 0 39px;
 }
 
-.header .nav .item {
+.header .nav .item a {
     color: #2f3a3b;
     font-size: 1.6rem;
     font-weight: 400;
 }
 
-.header .list .active {
+.header .list .active a {
     color: #2f3a3b;
     font-weight: 600;
 }
@@ -662,7 +662,7 @@ a {
 }
 
 .footer .row .column:nth-child(3) {
-    margin-right: 148px;
+    margin-right: 144px;
 }
 
 .footer .row .column:nth-child(4) {
