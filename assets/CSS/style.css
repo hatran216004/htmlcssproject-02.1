@@ -467,6 +467,7 @@ a {
     position: absolute;
     left: 17px;
     top: 322px;
+    cursor: pointer;
 }
 
 .courses .info .title {
@@ -694,7 +695,7 @@ a {
     font-weight: 500;
 }
 
-.footer .column .list {
+.footer .column .list a {
     color: #535353;
     font-size: 1.6rem;
     font-weight: 400;
