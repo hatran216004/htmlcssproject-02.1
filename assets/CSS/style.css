@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
     font-family: "Poppins", sans-serif;
@@ -73,6 +78,10 @@ a {
 }
 
 /* =================== Header ===================*/
+.header {
+    background-color: #fff;
+}
+
 .header.fixed {
     position: sticky;
     top: -44px;
@@ -98,9 +107,10 @@ a {
     font-weight: 400;
 }
 
+.header .nav .item a:hover,
 .header .list .active a {
     color: #2f3a3b;
-    font-weight: 600;
+    text-shadow: 1px 0 0 currentColor;
 }
 
 .header .nav .action {
@@ -131,6 +141,14 @@ a {
     border-radius: 6px;
     border: 1px solid #1ebfc1;
     color: #1ebfc1;
+}
+
+.header .action .cta-btn:first-child {
+    border-color: transparent;
+}
+
+.header .action .cta-btn:first-child:hover {
+    border: 1px solid #1ebfc1;
 }
 
 /* =================== Hero ===================*/
