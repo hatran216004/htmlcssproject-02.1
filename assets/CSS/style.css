@@ -97,7 +97,6 @@ a {
 .header .nav .list {
     display: flex;
     margin-left: 235px;
-    margin-right: 177px;
     gap: 0 39px;
 }
 
@@ -114,6 +113,7 @@ a {
 }
 
 .header .nav .action {
+    margin-left: auto;
     display: flex;
     align-items: center;
     gap: 0 24px;
